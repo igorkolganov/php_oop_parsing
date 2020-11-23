@@ -12,7 +12,7 @@ class DoneJobe extends ParsingSite {
         if (count($this->pages) === 0){
             $this->url = $this->getUrl();
         }else{
-            $this->url = 'https://gkb81.ru/sovety/page/' . (count($this->pages) + 1) . '/';
+            $this->url = 'this your site witch you want to parse' . (count($this->pages) + 1) . '/';
             $this->setUrl($this->url);
         }
         $this->setPrameters();
