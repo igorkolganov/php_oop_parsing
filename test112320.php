@@ -1,4 +1,4 @@
-<?php include "functions/test112320/includes/autoloader.php"; ?>
+<?php include "includes/autoloader.php"; ?>
 
 <!doctype html>
 <html lang="en">
@@ -8,25 +8,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="style/timeline/test11162021.css">
-
-    <title>Document</title>
+    <title>Parsing sites</title>
 </head>
 <body>
 
-<?php include "elements/menu.php"?>
-
-<div class="data-task">
-
 <?php
-$doneJobe = new DoneJobe('https://gkb81.ru/sovety/');
+$doneJobe = new DoneJobe('this should be site witch you want to parse');
 $doneJobe->putSomeData();
 ?>
 
-</div>
-
-
-<script type="text/javascript" src="ajax/jquery351.min.js"></script>
 
 </body>
 </html>
